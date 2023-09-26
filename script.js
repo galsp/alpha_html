@@ -1,7 +1,12 @@
-const buyButtons = document.querySelectorAll('.buy-button');
+function run(n1, n2, n3){
+  if ( n1 < n2 && n2 < n3 && ( (n1 + n2 + n3)/3 ) > 90 ){
+    out = "benar"
+  } 
+  else {
+   out = "salah"
+  }
 
-buyButtons.forEach(button => {
-  button.addEventListener('click', () => {
-    alert('Terima kasih telah melakukan pembelian!');
-  });
-});
+  return out;
+}
+
+alert(run(89 , 93, 95))
