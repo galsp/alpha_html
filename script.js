@@ -1,8 +1,7 @@
 let a = prompt("masukan nilai")
-let b = prompt("pembagi")
-while(n % == 1){
-  n = a - b
+let b = prompt("pembagi") 
+let n = 1
+while(n < a){
+  console.log(n)
+  n = n * b
 }
-
-
-console.log()
