@@ -1,12 +1,8 @@
-function run(n1, n2, n3){
-  if ( n1 < n2 && n2 < n3 && ( (n1 + n2 + n3)/3 ) > 90 ){
-    out = "benar"
-  } 
-  else {
-   out = "salah"
-  }
-
-  return out;
+let a = prompt("masukan nilai")
+let b = prompt("pembagi")
+while(n % == 1){
+  n = a - b
 }
 
-alert(run(89 , 93, 95))
+
+console.log()
