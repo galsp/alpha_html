@@ -22,5 +22,7 @@ function run(operator, bilangan1, bilangan2){
   
 }
 
-let akhir = run("/", 5, 1)
-console.log(akhir)
+
+// let akhir = run("+", 5, 1)
+// console.log(akhir)
+// alert(akhir)
